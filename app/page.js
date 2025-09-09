@@ -6,7 +6,9 @@ export default function Home() {
       <h1>CPRG306 Assignments</h1>
       <ul>
         <li>
-          <Link href="./week-2">Week 2 Assignment</Link>
+          <Link className="text-blue-600 underline" href="./week-2">
+            Week 2 Assignment
+          </Link>
         </li>
       </ul>
     </main>
