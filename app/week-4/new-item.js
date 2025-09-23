@@ -15,14 +15,14 @@ export default function NewItem() {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow">
+      <div className="flex items-center gap-4 bg-white p-1 rounded-lg shadow">
         <span className="text-xl font-bold w-8 text-center text-black">
           {quantity}
         </span>
         <button
           onClick={decrement}
           disabled={quantity === 1}
-          className="px-4 py-2 rounded-md bg-gray-200 hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="px-4 py-2 rounded-md bg-gray-500 hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           −
         </button>
