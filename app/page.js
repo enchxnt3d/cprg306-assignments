@@ -33,7 +33,7 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link className={linkStyles} href="./week-6">
+          <Link className={linkStyles} href="./week-7">
             Week 7 Assignment
           </Link>
         </li>
